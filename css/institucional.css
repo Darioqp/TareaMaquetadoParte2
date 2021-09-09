@@ -1,0 +1,144 @@
+body {
+    background: #D1913C;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFD194, #D1913C);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFD194, #D1913C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+header {
+
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(128, 128, 128, 0.685);
+    margin: 0 1em 0 1em;
+    padding: 0.5em 0.5em;
+    max-width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.titulo {
+    font-size: 3.5rem;
+    font-family: 'Nunito';
+    text-align: center;
+    font-style: italic;
+}
+
+header img {
+    width: 10em;
+    border-radius: 15px;
+    border: 2px solid black;
+}
+
+nav {
+    background-color: gray;
+    margin: 0 1em 0 1em;
+    border-radius: 0 0 5px 5px;
+    border: 2px solid black;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 33%;
+}
+
+nav ul li a {
+    color:black;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bolder;
+    display: block;
+    padding: 0.2em 0.4em;
+}
+
+nav ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.438);
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    padding-top: 1em;
+}
+
+.personas {
+    margin: 0 1em 0 1em;
+    display: inline-flex;
+    justify-content: space-around;
+    border: 2px solid black;
+    background-color: antiquewhite;
+
+}
+
+.box {
+    padding: 1em;
+}
+
+.box > h5 {
+    font-size: 1.5rem;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bolder;
+    padding-top: 10px;
+}
+
+.box > h6 {
+    font-size: 1rem;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bolder;
+}
+
+
+.imagen {
+    max-width: 20em;
+    border-radius: 20px;
+}
+
+.historia {
+    margin: 0 1em 0 1em;
+    border: 2px solid black;
+    margin-top: 2em;
+    overflow: scroll;
+    max-height: 500px;
+    padding-left: 1em;
+    padding-right: 1em;
+    background-color: antiquewhite;
+}
+
+footer {
+    background-color:rgba(128, 128, 128, 0.603);
+    margin: 1em;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+footer p {
+    padding-left: 1em;
+    font-size: x-large;
+}
+
+footer p a {
+    color:rgb(3, 3, 71);
+    text-decoration: none;
+    padding: 0.2em 0.4em;
+    font-weight: 900;
+}
+
+.iconos {
+    font-size: 70px;
+    padding-top: 10px;
+    
+}

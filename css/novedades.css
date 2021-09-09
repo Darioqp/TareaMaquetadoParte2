@@ -1,0 +1,47 @@
+/* font-family: 'Nunito', sans-serif; */
+
+body {
+    overflow: auto;
+    font-size: 1rem;
+    font-family: 'Nunito', sans-serif;
+    line-height: 2rem;
+    margin: 0 auto;
+    background: #D1913C;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFD194, #D1913C);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFD194, #D1913C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+header {
+
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(128, 128, 128, 0.685);
+    margin: 0 1em 0 1em;
+    padding: 0.5em 0.5em;
+    max-width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+header img {
+    width: 10em;
+    border-radius: 15px;
+    border: 2px solid black;
+}
+
+.titulo {
+    font-size: 3.5rem;
+    font-family: 'Nunito';
+    text-align: center;
+    font-style: italic;
+}
+
+.novedades {
+    margin: 1em;
+    padding: 1em;
+    border: 2px solid black;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bolder;
+}
