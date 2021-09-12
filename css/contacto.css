@@ -30,3 +30,41 @@ header img {
     border-radius: 15px;
     border: 2px solid black;
 }
+
+.holder {
+    padding-top: 2em;
+}
+
+.caja2 {
+    padding-top: 2em;
+
+}
+
+footer {
+    background-color:rgba(128, 128, 128, 0.603);
+    margin: 1em;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+footer p {
+    padding-left: 1em;
+    font-size: x-large;
+}
+
+footer p a {
+    color:rgb(3, 3, 71);
+    text-decoration: none;
+    padding: 0.2em 0.4em;
+    font-weight: 900;
+}
+
+.iconos {
+    font-size: 70px;
+    padding-top: 10px;
+    
+}
